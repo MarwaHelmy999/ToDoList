@@ -1,0 +1,73 @@
+body{
+    background-color: #eee;
+}
+.App{
+    background-color: #4f3a3a;
+    margin: 100px 30%;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+.App h2{
+    color: #eee;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.App ul{
+    list-style: "🤍";
+    font-size: 20px;
+    color: #eee;
+    font-weight: bold;
+}
+.App ul li{
+    cursor: pointer;
+    margin: 10px;
+    overflow-wrap: break-word;
+    word-break: break-word; 
+    color: #eee;
+}
+.App input{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    border: none;
+    font-size: 15px;
+}
+.App input:focus{
+    outline: none;
+}
+.App button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 80px;
+    height: 35px;
+    color: #4f3a3a;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid #eee;
+    transition: 0.3s;
+}
+.App button:hover{
+    color: #eee;
+    background-color: #4f3a3a;
+}
+.App .DoneStyle{
+    list-style: "👌🏻";
+    text-decoration: line-through;
+}
+.App .close{
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid #eee;
+    padding: 5px 10px;
+    
+}
+.App .liContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
